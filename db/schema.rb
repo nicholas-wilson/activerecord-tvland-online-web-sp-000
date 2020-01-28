@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 5) do
   end
 
   create_table "characters", force: :cascade do |t|
+    t.string "name"
     t.string "first_name"
     t.string "last_name"
     t.string "catchphrase"
