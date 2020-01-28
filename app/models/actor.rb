@@ -7,6 +7,9 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
+    roles = []
+    self.shows.each do |show|
 
+    end
   end
 end
