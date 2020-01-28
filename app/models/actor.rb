@@ -11,5 +11,6 @@ class Actor < ActiveRecord::Base
     self.shows.each do |show|
       roles << "#{show.character} - #{show.name}"
     end
+    roles
   end
 end
