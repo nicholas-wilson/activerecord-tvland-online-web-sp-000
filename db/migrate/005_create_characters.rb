@@ -6,5 +6,6 @@ class CreateCharacters < ActiveRecord::Migration[5.1]
       c.string :catchphrase
       c.integer :show_id
       c.integer :actor_id
+    end
   end
 end
