@@ -6,5 +6,6 @@ class Show < ActiveRecord::Base
     self.characters.each do |character|
       actors << character.actor.full_name
     end
+    actors
   end
 end
