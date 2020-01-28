@@ -3,5 +3,6 @@ class CreateCharacters < ActiveRecord::Migration[5.1]
     create_table :characters do |c|
       c.string :first_name
       c.string :last_name
+      c.string :catchphrase
   end
 end
